@@ -1,8 +1,32 @@
-body{
+header{
+    background: url(banner/bg.jpg);
+}
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    color: #ffff;
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
     
 }
 .titulo-principal{
     padding-left: 20px;
+    color: #ffff;
 }
 .titulo-centralizado{
     text-align: center;
