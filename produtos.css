@@ -1,7 +1,17 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0; 
 }
-
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
 nav li {
     display: inline;
     margin: 0 0 0 15px;
