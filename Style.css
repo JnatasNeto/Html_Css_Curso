@@ -1,10 +1,16 @@
 header{
     background: url(banner/bg.jpg);
+    padding: 20px 0;
 }
 .caixa{
     position: relative;
     margin: 0 auto;
     width: 940px;
+}
+h1 {
+    position: absolute;
+    top: 100px;
+    right: 500px;
 }
 nav{
     position: absolute;
@@ -30,6 +36,8 @@ nav a {
 }
 .titulo-centralizado{
     text-align: center;
+    font-weight: bold;
+    color: #c78c19;
 }
 #banner{
     width: 100%;
@@ -51,19 +59,21 @@ em strong{
 }
 .itens{
     font-style: italic;
+    color: gold;
 }
 
 .beneficios{
-    background: #ffff;
-    padding: 20px;
+    background: url(banner/bg.jpg);
+    padding: 10px;
 }
 
-ul{
+.beneficios-topicos{
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    color: #c78c19;
+    font-weight: bold;
 }
 #banner2{
     width: 50%;
+    text-align: center;
 }
