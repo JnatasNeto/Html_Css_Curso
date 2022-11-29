@@ -34,6 +34,11 @@ nav a {
     padding-left: 20px;
     color: #ffff;
 }
+.titulo-centralizadoII{
+    text-align: center;
+    font-weight: bold;
+    color: #c78c19;
+}
 .titulo-centralizado{
     text-align: center;
     font-weight: bold;
@@ -42,6 +47,7 @@ nav a {
 #banner{
     width: 100%;
 }
+
 .principal{
     background: #cccc;
     padding: 30px;
@@ -72,8 +78,21 @@ em strong{
     vertical-align: top;
     color: #c78c19;
     font-weight: bold;
+    line-height: 100px;
 }
-#banner2{
-    width: 50%;
+#bannerII{
+    width: 40%;
+    margin-left: 130px;
+}
+.baixo{
+    background: #c78c19;
+}
+footer{
     text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
